@@ -1,0 +1,168 @@
+/* Link Montserrat google font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Style contact us page body */
+.contact_us_form_body{
+    background: linear-gradient(to left bottom, #5468D6, #A16AB9);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* style contact us form container */
+.contact_us_form_wrap{
+    max-width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #fff;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 80px 0px;
+}
+.contact_us_form{
+    width: 60%;
+}
+/* contact form title */
+.contact_us_form_title{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+/* style contact us form input container */
+.contact_form_input_inner{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 20px;
+}
+
+/* style input lable */
+.input_label{
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+.contact_form_input{
+    background: #FBFBFB;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+.contact_form_input:focus{
+    outline: none;
+}
+.contact_form_input_textarea{
+    background: #FBFBFB;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+.contact_form_input_textarea:focus{
+    outline: none;
+}
+.contact_us_submit_btn{
+    background-color: #7833C1;
+    border: none;
+    padding: 15px 30px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:all .3s;
+}
+.contact_us_submit_btn:hover{
+    background-color: #5468D6;
+}
+
+/* 
+*----------------------
+*thank you page style
+*----------------------
+*/
+.thankyou_wrap{
+    max-width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #fff;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 40px 0px;
+}
+.thankyou_title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.thankyou_image{
+    width: 50%;
+}
+
+.thankyou_text ul{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+}
+ul.social_media_links{
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.social_media_links li{
+    padding: 10px;
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+    display: grid;
+    place-items: center;
+    font-size: 22px;
+}
+.social_media_connect_title {
+    font-size: 22px;
+    font-weight: 500;
+    color: #4e4b4b;
+    text-align: center;
+}
+.social_media_links .facebook {
+    background: #005CEF;
+}
+.social_media_links  a{
+    color: #fff;
+}
+.social_media_links .instragram{
+   background: #F56040;
+}
+.social_media_links .instragram{
+   background: #F56040;
+}
+.social_media_links .linkedin{
+   background: #0077B5 ;
+}
+.social_media_links .youtube{
+   background: #FF0000 ;
+}
+
+img.error_image{
+    width: 60%;
+    border-radius: 16px;
+}
